@@ -23,6 +23,8 @@
     "@shopify/cli-hydrogen": "^4.0.9",
     "@shopify/hydrogen": "^2023.1.6",
     "@shopify/online-store-ui": "^1.0.4",
+    "@shopify/polaris": "^10.40.0",
+    "@shopify/react-i18n": "^7.7.2",
     "@shopify/remix-oxygen": "^1.0.4",
     "clsx": "^1.2.1",
     "concurrently": "^7.5.0",

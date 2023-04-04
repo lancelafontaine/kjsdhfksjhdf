@@ -19,7 +19,7 @@ import {seoPayload} from '~/lib/seo.server';
 import {DEFAULT_LOCALE, parseMenu} from './lib/utils';
 import invariant from 'tiny-invariant';
 import {useAnalytics} from './hooks/useAnalytics';
-import {Sidebar} from '@shopify/online-store-ui';
+import {SidebarCard} from '@shopify/online-store-ui';
 import {ChakraProvider} from "@chakra-ui/react"
 
 export const links = () => {
