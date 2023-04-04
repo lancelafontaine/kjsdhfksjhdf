@@ -19,8 +19,11 @@ import {seoPayload} from '~/lib/seo.server';
 import {DEFAULT_LOCALE, parseMenu} from './lib/utils';
 import invariant from 'tiny-invariant';
 import {useAnalytics} from './hooks/useAnalytics';
-import {SidebarCard} from '@shopify/online-store-ui';
-import {ChakraProvider} from "@chakra-ui/react"
+import {ChakraProvider, Button, ButtonGroup, ButtonSpinner, AccordionButton, AccordionIcon, Heading, Tab, TabIndicator} from "@chakra-ui/react"
+
+if (ChakraProvider && Button && ButtonGroup && ButtonSpinner && AccordionButton && AccordionIcon && Heading && Tab && TabIndicator) {
+  console.log("hey")
+}
 
 export const links = () => {
   return [
