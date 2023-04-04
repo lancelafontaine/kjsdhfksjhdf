@@ -19,9 +19,9 @@ import {seoPayload} from '~/lib/seo.server';
 import {DEFAULT_LOCALE, parseMenu} from './lib/utils';
 import invariant from 'tiny-invariant';
 import {useAnalytics} from './hooks/useAnalytics';
-import {ChakraProvider, Button, ButtonGroup, ButtonSpinner, AccordionButton, AccordionIcon, Heading, Tab, TabIndicator} from "@chakra-ui/react"
+import {ChakraProvider, Button, ButtonGroup, ButtonSpinner, AccordionButton, AccordionIcon, Heading, Tab, TabIndicator, WrapItem, Wrap, CSSPolyfill, CSSResetProps, CSSVars, DarkMode, DeepPartial, Editable, Fade, FadeProps, GenericAvatarIcon, GlobalStyle} from "@chakra-ui/react"
 
-if (ChakraProvider && Button && ButtonGroup && ButtonSpinner && AccordionButton && AccordionIcon && Heading && Tab && TabIndicator) {
+if (ChakraProvider && Button && ButtonGroup && ButtonSpinner && AccordionButton && AccordionIcon && Heading && Tab && TabIndicator && WrapItem && Wrap && CSSPolyfill && CSSResetProps && CSSVars && DarkMode && DeepPartial && Editable && Fade && FadeProps && GenericAvatarIcon && GlobalStyle) {
   console.log("hey")
 }
 
